@@ -4,11 +4,11 @@ $name = $_POST['firstname'];
 $email= $_POST['email'];
 $number= $_POST['mobilenumber'];
 $message= $_POST['message'];
-$to = "lemomatrix@gmail.com"; 
-$subject = "Mail From Ultra Tarpaulin";
+$to = "ultratarpaulins@gmail.com"; 
+$subject = "Mail From Ultra Tarpaulins";
 $txt ="Name = ". $name . "\r\n  Email = " . $email . "\r\n mobile number = " . $number . "\r\n Message =" . $message;
-$headers = "From: noreply@ultratarpaulin.com" . "\r\n" .
-"CC: febababyk@gmail.com";
+$headers = "From: noreply@ultratarpaulins.com" . "\r\n" .
+"CC:lemomatrix@gmail.com";
 if($email!=NULL){
     mail($to,$subject,$txt,$headers);
 }
