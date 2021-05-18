@@ -3,7 +3,7 @@
 $name = $_POST['name'];
 $email= $_POST['email'];
 $number= $_POST['mobile'];
-$message= $_POST['message'];
+$message= $_POST['subject'];
 $to = "ultratarpaulins@gmail.com"; 
 $subject = "Mail From Ultra Tarpaulins";
 $txt ="Name = ". $name . "\r\n  Email = " . $email . "\r\n Mobile number = " . $number . "\r\n Message =" . $message;
