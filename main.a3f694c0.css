@@ -712,7 +712,7 @@ a:hover{-webkit-transition:all 0.5s;-moz-transition:all 0.5s;-ms-transition:all 
 @media only screen and (max-width: 767px){
 .homeBest-right{float:none;width:100%;}
 }
-.homeBest-right span{position:absolute;content:'';border-right:170px solid transparent;border-left:170px solid #e6e6e6;border-top:220px solid transparent;border-bottom:220px solid #e6e6e6;z-index:1;left:0px;top:0;}
+.homeBest-right span{position:absolute;content:'';border-right:170px solid transparent;border-left:170px solid #e6e6e6;border-top:220px solid transparent;border-bottom:241px solid #e6e6e6;z-index:1;left:0px;top:0;}
 @media only screen and (max-width: 767px){
 .homeBest-right span{content:none;border:transparent;}
 }
