@@ -586,9 +586,9 @@ figure-about{overflow:hidden;position:relative; margin-top:60px;}
 figure-about img{-webkit-transition:all 0.5s linear;transition:all 0.5s linear;-webkit-transform:rotate(0deg) scale3d(1, 1, 1);transform:rotate(0deg) scale3d(1, 1, 1);width:100%;}
 figure-about:hover img{-ms-transform:rotate(1deg) scale3d(1.2, 1.2, 1);-webkit-transform:rotate(1deg) scale3d(1.2, 1.2, 1);transform:rotate(1deg) scale3d(1.2, 1.2, 1);}
 .delay-1{-moz-animation-delay:10s;-ms-animation-delay:10s;-o-animation-delay:10s;-webkit-animation-delay:.2s;}
-.containerSpace{padding:70px 0;clear:both; margin-top:-20px;margin-bottom:-60px;background-color: ;}
+.containerSpaceGallery{padding:70px 0;clear:both; margin-top:-20px;margin-bottom:0px;background-color: ;}
 @media only screen and (max-width: 767px){
-.containerSpace{padding:30px 0;}
+.containerSpaceGallery{padding:30px 0;}
 }
 .aboutInnerPage h2{color:#fff;text-align:left;}
 .aboutInnerPage .aboutDifference{background:#00a639;color:#fff;}
@@ -824,6 +824,7 @@ h2{font:28px/28px "Raleway",sans-serif;margin:0 0 10px 0;}
 	background-image: url(./assets/images/fakurian.jpg);
 	background-size: cover;
 }
+	.containerSpace{padding:70px 0;clear:both; margin-top:0px;margin-bottom:-60px;background-color: ;}
 
 @media only screen and (max-width: 1024px){
 	.homeBrand .containerSpace{
