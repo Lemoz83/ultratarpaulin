@@ -1216,15 +1216,29 @@ h2{display:inline-block;width:100%;font-weight:300;}
 }
 
 @media only screen and (max-width: 767px){
+    .commonHeading h2{
+    margin-top:0px;
+}
 	.projects{
 		margin-top:-10px;
 	}
 	.projects hr{
-		max-width: 75px;
+		max-width: 100px;
 		margin-top: -20px;
 	}
+}
 
-
+@media only screen and (max-width: 480px){
+    .commonHeading h2{
+    margin-top:0px;
+}
+    .projects{
+        margin-top:-10px;
+    }
+    .projects hr{
+        width: 100%;
+        margin-top: -20px;
+    }
 }
 
 figure{
